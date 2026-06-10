@@ -1,8 +1,8 @@
 import "../index.css";
 
 export const metadata = {
-  title: "Design 3",
-  description: "Converted from Vite to Next.js",
+  title: "Creyotech",
+  description: "Creyotech IT Services",
 };
 
 export default function RootLayout({
