@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.gallery img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+body {
+  cursor: none;
+}
+
+.magnetic {
+  transition: transform 0.25s ease;
+  will-change: transform;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
