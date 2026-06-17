@@ -7,6 +7,7 @@ import Gallery from "../components/Gallery";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import ParallaxScroll from "../components/ParallaxScroll";
+import ChatWidget from "../components/ChatWidget";
 import Services from "../components/Services";
 
 function Home() {
@@ -20,6 +21,7 @@ function Home() {
       <USPSection />
       <Gallery />
       <Contact />
+      <ChatWidget />
       <Footer />
     </div>
   );
